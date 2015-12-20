@@ -3,6 +3,9 @@ Role Name
 
 Installs plex server from https://plex.tv and sets up SMB mounts to media shares if desired.
 
+This is a fork from the original which also installs the
+[Hama.bundle](https://github.com/ZeroQI/Hama.bundle)
+
 Requirements
 ------------
 

@@ -1,0 +1,11 @@
+---
+
+- name: plex | rsync Hama.bundle
+  synchronize:
+    src: hama/{{ item }}
+    dest: /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/{{ item }}
+  with_items:
+    - Logs
+    - Plug-ins
+    - Plug-in Support
+    - Scanners

@@ -1,0 +1,97 @@
+[
+  {
+    "id"      : "GetTvdbFanart",
+    "label"   : "Attempt to fetch Fanart images from TVDB",
+    "type"    : "bool",
+    "default" : "true"
+  },
+  {
+    "id"      : "GetTvdbPosters",
+    "label"   : "Attempt to fetch Poster images from TVDB",
+    "type"    : "bool",
+    "default" : "true"
+  },
+  {
+    "id"      : "GetTvdbBanners",
+    "label"   : "Attempt to fetch series Banner images from TVDB",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "GetPlexThemes",
+    "label"   : "Download Themes from PLEX",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "GetAnidbPoster",
+    "label"   : "Get AniDB's poster",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "CacheAniDBPostersLocally",
+    "label"   : "Cache AniDB Posters Locally",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "UseWebLinks",
+    "label"   : "Display links to ANN-AniDB-TVDB in tv serie/Movie summary and episode overview page on tile view, breaks Details views",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "CachePlexTHemesLocally",
+    "label"   : "Cache Plex Theme songs locally",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "CacheTVDBPostersLocally",
+    "label"   : "Cache TVDB Posters Locally",
+    "type"    : "bool",
+    "default" : "false"
+  },
+  {
+    "id"      : "MinimumWeight",
+    "label"   : "Map categories at or above the minimum weight selected",
+    "type"    : "text",
+    "default" : "200"
+  },
+  {
+    "id"      : "SerieLanguage1",
+    "label"   : "First Language preference for the Serie title",
+    "type"    : "enum",
+    "values"  : ["main","x-jat","ja","en","ar","bg","ca","cs","da","de","el","es","et","fa","fi","fr","he","hr","hu","it","ko","lv","mn","pl","pt","ro","ru","sr","sk","sl","sv","th","tr","uk","zh","zh-Hans","zh-x-nan"],
+    "default" : "main"
+  },
+  {
+    "id"      : "SerieLanguage2",
+    "label"   : "Second Language preference for the Serie title",
+    "type"    : "enum",
+    "values"  : ["main","x-jat","ja","en","ar","bg","ca","cs","da","de","el","es","et","fa","fi","fr","he","hr","hu","it","ko","lv","mn","pl","pt","ro","ru","sr","sk","sl","sv","th","tr","uk","zh","zh-Hans","zh-x-nan"],
+    "default" : "x-jat"
+  },
+  {
+    "id"      : "SerieLanguage3",
+    "label"   : "Third Language preference for the Serie title",
+    "type"    : "enum",
+    "values"  : ["main","x-jat","ja","en","ar","bg","ca","cs","da","de","el","es","et","fa","fi","fr","he","hr","hu","it","ko","lv","mn","pl","pt","ro","ru","sr","sk","sl","sv","th","tr","uk","zh","zh-Hans","zh-x-nan"],
+    "default" : "en"
+  },
+  {
+    "id"      : "EpisodeLanguage1",
+    "label"   : "First Language preference for the Episode title",
+    "type"    : "enum",
+    "values"  : ["x-jat","ja","en","ar","bg","ca","cs","da","de","el","es","et","fa","fi","fr","he","hr","hu","it","ko","lv","mn","pl","pt","ro","ru","sr","sk","sl","sv","th","tr","uk","zh","zh-Hans","zh-x-nan"],
+    "default" : "en"
+  },
+  {
+    "id"      : "EpisodeLanguage2",
+    "label"   : "First Language preference for the Episode title",
+    "type"    : "enum",
+    "values"  : ["x-jat","ja","en","ar","bg","ca","cs","da","de","el","es","et","fa","fi","fr","he","hr","hu","it","ko","lv","mn","pl","pt","ro","ru","sr","sk","sl","sv","th","tr","uk","zh","zh-Hans","zh-x-nan"],
+    "default" : "x-jat"
+  }
+]
