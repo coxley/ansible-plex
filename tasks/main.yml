@@ -11,9 +11,9 @@
     - mount_smb
   when: plex_mount_smb is defined
 
-- include: hama.yml
-  tags:
-    - plugins
+# - include: hama.yml
+#   tags:
+#     - plugins
 
 # Open firewall ports
 - include: ferm.yml
